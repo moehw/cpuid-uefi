@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{14b9b682-f180-4978-b698-c2a368d7ecf4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\utils.dec" />
+    <None Include="..\utils.dsc" />
+    <None Include="..\Application\cpuid.inf">
+      <Filter>Application</Filter>
+    </None>
+    <None Include="BuildVS.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Application\cpuid.c">
+      <Filter>Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Application\cpuid.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

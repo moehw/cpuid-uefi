@@ -1,0 +1,24 @@
+[Defines]
+  INF_VERSION                    = 0x0001001B
+  BASE_NAME                      = Cpuid
+  FILE_GUID                      = 635FD3EC-CB60-4965-A0D8-EFD15009ED2A
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+#
+#  VALID_ARCHITECTURES           = IA32 X64 
+#
+
+[Sources]
+  cpuid.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+
+[BuildOptions]
+   MSFT:DEBUG_*_*_CC_FLAGS = /Od

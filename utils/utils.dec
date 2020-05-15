@@ -1,0 +1,5 @@
+[Defines]
+  DEC_SPECIFICATION              = 0x0001001B
+  PACKAGE_NAME                   = Utils
+  PACKAGE_GUID                   = 23F0977C-DA42-43F8-96B2-666005332172
+  PACKAGE_VERSION                = 1.00
