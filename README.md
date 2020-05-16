@@ -3,7 +3,7 @@
 
 ## Description
 
-Print major information from CPUID.
+Displaying dump of all functions of CPUID and information about features.
 
 ## Source
 ```
